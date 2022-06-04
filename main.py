@@ -1,4 +1,4 @@
-# this for python py
+# this for python *.py
 st = input()
 first = st.find('h')
 last = st.rfind('h')
