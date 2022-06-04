@@ -1,4 +1,4 @@
-# this for python *.py
+# this for python *.py это тесты для питона
 st = input()
 first = st.find('h')
 last = st.rfind('h')
