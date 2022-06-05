@@ -12,5 +12,6 @@ with open('xyz.txt', 'r') as file:
 fd = re.sub(r'1{3,}', '@', filedata)
 
 # Записываю
-with open('xyz.txt', 'w') as file:
+# оригинал сохраняется, запись в новый файл
+with open('new_xyz.txt', 'w') as file:
     file.write(fd)
